@@ -1,0 +1,28 @@
+{
+    "name": "hypejunction/elgg-ajax-form",
+    "type": "elgg-plugin",
+    "description": "Handling form submissions with promises",
+    "homepage": "http://hypejunction.com",
+    "keywords": [
+        "elgg",
+        "plugin",
+        "forms"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ismayil Khayredinov",
+            "email": "info@hypejunction.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0",
+        "npm-asset/codemirror": "^5.43"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "classes/"
+        }
+    }
+}
